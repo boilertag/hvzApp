@@ -50,6 +50,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
+  //user added pages for eventual appBLT port
+  .state('tab.mission', {
+    url: '/mission',
+    views: {
+      'tab-dash': {
+        templateUrl: 'templates/mission.html'
+      }
+    }
+  })
+
   .state('tab.chats', {
       url: '/chats',
       views: {
