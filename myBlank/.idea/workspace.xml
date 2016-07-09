@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c337b709-dcb5-4c06-be8b-19e2390b8646" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/myBlank.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/templates/mission.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/mySide.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/mission.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/rules.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/stats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/untitled.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/browse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/playlist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/playlists.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/search.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../myApp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myApp/www/js/app.js" afterPath="$PROJECT_DIR$/../myApp/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/templates/home.html" afterPath="$PROJECT_DIR$/www/lib/ionic/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mySide/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/css/style.css" afterPath="$PROJECT_DIR$/../mySide/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/js/app.js" afterPath="$PROJECT_DIR$/../mySide/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/js/controllers.js" afterPath="$PROJECT_DIR$/../mySide/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/templates/menu.html" afterPath="$PROJECT_DIR$/../mySide/www/templates/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/templates/playlists.html" afterPath="$PROJECT_DIR$/../mySide/www/templates/playlists.html" />
     </list>
     <ignored path="myBlank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mission.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mission.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/lib/ionic/templates/mission.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -85,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/lib/ionic/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -543,7 +537,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33985582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33985582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31885594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -632,14 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ionic/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -650,8 +636,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/lib/ionic/templates/mission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

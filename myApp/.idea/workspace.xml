@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bcde6b1-dd3a-4c12-acb7-dc65f6af3cdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/.idea/myBlank.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/www/lib/ionic/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/www/lib/ionic/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myBlank/www/lib/ionic/templates/mission.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/mySide.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/mission.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/rules.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/stats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mySide/www/templates/untitled.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/browse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/playlist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/playlists.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mySide/www/templates/search.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myBlank/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../myBlank/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myBlank/www/lib/ionic/templates/home.html" afterPath="$PROJECT_DIR$/../myBlank/www/lib/ionic/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mySide/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/css/style.css" afterPath="$PROJECT_DIR$/../mySide/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/js/app.js" afterPath="$PROJECT_DIR$/../mySide/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/js/controllers.js" afterPath="$PROJECT_DIR$/../mySide/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/templates/menu.html" afterPath="$PROJECT_DIR$/../mySide/www/templates/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mySide/www/templates/playlists.html" afterPath="$PROJECT_DIR$/../mySide/www/templates/playlists.html" />
     </list>
     <ignored path="myApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tab-dash.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tab-dash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tab-dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+            <state relative-caret-position="202">
+              <caret line="94" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="94" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ion-scroll#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -100,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -963,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/tab-test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1005,14 +991,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/tab-dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+        <state relative-caret-position="202">
+          <caret line="94" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="94" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ion-scroll#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
