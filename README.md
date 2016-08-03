@@ -1,7 +1,16 @@
 # hvzApp
-This is the repository for the Boiler Leauge of Tag Humans vs Zombies Mobile app
-this is tooo test if I can edit -mikey :)
-this is to test the slack integration :) NO TROLL THIS TIME MUHAHAHAHHA
+This is the repository for the Boiler League of Tag Humans vs Zombies Mobile app
+
+2016.08.03.0030
+there are 6 projects in this directory
+v0.1:                myApp
+v0.2:                mySide
+v0.2.5:              HvZApp
+v0.3:                bltApp_v0.3
+Ionic 2 tutorial:    test
+example demo:        kitchenSink
+
+
 
 2016.07.09.1511
 there are 4 projects in this directory: kitchenSink, myApp, myBlank, and mySide
