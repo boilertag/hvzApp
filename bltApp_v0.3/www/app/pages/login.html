@@ -1,0 +1,14 @@
+<h1>login</h1>
+
+<h2>Username: </h2>
+<input #uSer
+       (keyup.enter)="userName=uSer.value"
+       (blur)="userName=uSer.value">
+<h2>Password: </h2>
+<input #passw
+       (keyup.enter)="passWord=passw.value"
+       (blur)="passWord=passw.value">
+
+<a [routerLink]="['/mainPage']" routerLinkActive="active" class="button-scale button icon ion-pie-graph button-assertive">
+    <br>Back
+</a>
