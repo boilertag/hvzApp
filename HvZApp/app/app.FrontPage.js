@@ -9,20 +9,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var app_dataGet_1 = require('./app.dataGet');
 var router_1 = require('@angular/router');
 var FPComponent = (function () {
-    function FPComponent() {
+    function FPComponent(dataService) {
+        this.dataService = dataService;
         this.title = 'Tour of Heroes';
-        this.route = '/test';
     }
+    FPComponent.prototype.getData = function () {
+        var _this = this;
+        this.dataService.getData(1, "name").then(function (info) { return _this.info = info; });
+    };
+    FPComponent.prototype.ngOnInit = function () {
+        this.getData();
+    };
     FPComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
             template: "\n        <router-outlet></router-outlet>\n  ",
             directives: [router_1.ROUTER_DIRECTIVES],
-            providers: []
+            providers: [app_dataGet_1.DataService]
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [app_dataGet_1.DataService])
     ], FPComponent);
     return FPComponent;
 }());

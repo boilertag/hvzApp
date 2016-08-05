@@ -7,7 +7,9 @@
 <h2>Password: </h2>
 <input #passw
        (keyup.enter)="passWord=passw.value"
-       (blur)="passWord=passw.value">
+       (blur)="passWord=passw.value"
+       type="password">
+<a (click)="loginPress()">Enter</a>
 
 <a [routerLink]="['/mainPage']" routerLinkActive="active" class="button-scale button icon ion-pie-graph button-assertive">
     <br>Back

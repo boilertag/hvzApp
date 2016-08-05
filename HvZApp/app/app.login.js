@@ -10,8 +10,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
+var router_2 = require('@angular/router');
+var app_dataGet_1 = require('./app.dataGet');
 var loginComponent = (function () {
-    function loginComponent() {
+    function loginComponent(dataService, route) {
+        this.dataService = dataService;
+        this.route = route;
         this.userName = "";
         this.passWord = "";
     }
@@ -19,13 +23,17 @@ var loginComponent = (function () {
     };
     loginComponent.prototype.ngOnDestroy = function () {
     };
+    loginComponent.prototype.loginPress = function () {
+        this.userPass = { id: this.userName, name: this.passWord };
+        this.dataService.returnData(this.userPass);
+    };
     loginComponent = __decorate([
         core_1.Component({
             selector: 'login',
             templateUrl: 'app/login.html',
-            directives: [router_1.ROUTER_DIRECTIVES],
+            directives: [router_2.ROUTER_DIRECTIVES],
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [app_dataGet_1.DataService, router_1.ActivatedRoute])
     ], loginComponent);
     return loginComponent;
 }());
