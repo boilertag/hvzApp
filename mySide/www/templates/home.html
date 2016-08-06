@@ -1,25 +1,27 @@
 <ion-view view-title="Home">
   <ion-content class="padding" scroll="false" id="wrap">
     <div id="block1">
-      <div class="row">
-        <h3 class="col text-center">Gameweek Countdown</h3>
-      </div>
-      <div class="row">
-        <h1 class="col text-center">MM:DD:HH:SS</h1>
-      </div>
-      <div class="row">
-        <h5 class="col text-left">Night Mission Status:</h5>
-        <h5 class="col text-right" style="background: green; color: white">Active</h5>
+      <div class="card">
+        <div class="item item-divider item-dark">
+          <h3 class="col text-center" style="color: white">Mission Time Left</h3>
+        </div>
+        <div class="item item-dark">
+          <h1 class="col text-center" style="color: white">HH:SS</h1>
+        </div>
+        <div class="item item-divider item-dark">
+          <h3 class="col text-left" style="color: white">Mission Status</h3>
+          <h5 class="col text-right" style="background: green; color: white">Active</h5>
+        </div>
       </div>
     </div>
 
     <div id="block2">
       <div class="card">
-         <div class="item item-divider">
-           <h2 style="text-align:center">Announcements</h4>
+         <div class="item item-divider item-dark">
+           <h2 style="text-align: center; color: white">Announcements</h4>
          </div>
-         <div class="item item-text-wrap">
-            <ion-scroll zooming="false" direction="y" style="height: 20vh">
+         <div class="item item-text-wrap item-dark">
+            <ion-scroll zooming="false" direction="y" style="height: 10vh">
               <div>HITLER ESCAPED AO BRASIL no final de 1945
                 E depois levou o título no HANS GRUBER, COM EVA becomeing
                 Hanzel GRUBER. Ele assumiu um emprego de carpinteiro e que
@@ -61,36 +63,36 @@
     </div>
 
     <div id="block3">
-      <div class="row" style="height: 40%">
+      <div class="row">
         <div class="col text-center">
-          <a class="button-scale icolor button icon ion-log-in button-energized" ng-click="login()">
+          <a class="button-scale icolor button icon ion-log-in button-energized button-outline" style="font-size: 4vw" ng-click="login()">
             <br>Login
           </a>
         </div>
         <div class="col text-center">
-          <a class="button-scale button icon ion-information button-energized" href="#/app/mission">
+          <a class="button-scale button icon ion-information button-energized button-outline" style="font-size: 4vw" href="#/app/mission">
             <br>Mission
           </a>
         </div>
         <div class="col text-center">
-          <a class="button-scale button icon ion-speakerphone button-energized" href="#/app/rules">
+          <a class="button-scale button icon ion-speakerphone button-energized button-outline" style="font-size: 4vw" href="#/app/rules">
             <br>Rules
           </a>
         </div>
       </div>
-      <div class="row" style="height: 40%">
+      <div class="row">
         <div class="col text-center">
-          <a class="button-scale button icon ion-pie-graph button-energized" href="#/app/stats">
+          <a class="button-scale button icon ion-pie-graph button-energized button-outline" style="font-size: 4vw" href="#/app/stats">
             <br>Stats
           </a>
         </div>
         <div class="col text-center">
-          <a class="button-scale button icon ion-map button-energized" href="#/app/map">
+          <a class="button-scale button icon ion-map button-energized button-outline" style="font-size: 4vw" href="#/app/map">
             <br>Map
           </a>
         </div>
         <div class="col text-center">
-          <a class="button-scale button icon ion-loop button-energized" href="#/app/untitled">
+          <a class="button-scale button icon ion-loop button-energized button-outline" style="font-size: 4vw" href="#/app/untitled">
             <br>420BLAZE
           </a>
         </div>
