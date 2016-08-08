@@ -9,7 +9,7 @@ ionic v0.2:	bltApp_v0.2
 ionic v0.3:	bltApp_v0.3
 ts v0.1:	HvZApp_v0.1
 ts v0.2:	HvZApp_v0.2
-demo app:	ionicFeatureDemo
+demo app:	kitchenSink
 
 
 
