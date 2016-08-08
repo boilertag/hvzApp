@@ -1,4 +1,0 @@
-User created to-do list
-
--Rename "FrontPage" to something more intuitive (this is the navigation component, correct?)
--Sort each individual component into its own folder with its respective .html, .scss, .ts files

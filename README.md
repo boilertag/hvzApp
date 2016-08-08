@@ -1,5 +1,16 @@
 # hvzApp
-This is the repository for the Boiler League of Tag Humans vs Zombies Mobile app
+This is the repository for the Purdue Boiler League of Tag Humans vs Zombies mobile app.
+Its intended platforms are Android and iOS.
+
+2016.08.07.2251
+there are 6 projects in this directory
+ionic v0.1:	bltApp_v0.1
+ionic v0.2:	bltApp_v0.2
+ionic v0.3:	bltApp_v0.3
+ts v0.1:	HvZApp_v0.1
+ts v0.2:	HvZApp_v0.2
+demo app:	ionicFeatureDemo
+
 
 
 2016.08.03.0030
