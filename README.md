@@ -7,10 +7,11 @@ there are 6 projects in this directory
 ionic v0.1:	bltApp_v0.1
 ionic v0.2:	bltApp_v0.2
 ionic v0.3:	bltApp_v0.3
-ts v0.1:	HvZApp_v0.1
+ts v0.1:	HvZApp
 ts v0.2:	HvZApp_v0.2
 demo app:	kitchenSink
 
+NOTE: the ts projects seem to have an extreme number of files, possibly due to the package.json file. If possible, either cut down number of packages used in package.json or refrain from renaming/moving files from node_modules under the ts projects.
 
 
 2016.08.03.0030
