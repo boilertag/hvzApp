@@ -52,7 +52,10 @@ mySide is the current (up-to-date) app that showcases the home template, some re
 +Troubleshooting+
 +++++++++++++++++
 -if 'ionic serve -l' or otherwise isn't working for a freshly created Ionic 2 project (some sort of error about packages missing and needing to run 'npm install'), then run 'npm --production=false install'
+-Ionic 1 doesn't work out of the box in Ionic 2. 
+
 -to include .scss files for each component, edit /app/theme/app.core.scss with the respective @import "../pages/(component)/(scss file name)"
 -app.variables.scss contains all of the global sass vars used within the app. this includes anything from default menu item colors to background colors, as well as the standard color palette that can be used with elements
 -sass vars MUST be used within stylesheets linked with the app.core.scss sheet. If vars are used with in-line styles within html, things WON'T work
--Ionic 1 doesn't work out of the box in Ionic 2. 
+-order REALLY MATTERS when importing different scss files (packages imported first supercede those that are imported after)
+-you can import a dark theme using '@import "themes/dark"'. for specific platforms, it's recommended to port the specific flavor (for android, port '@import "themes/dark.md"'). these files are supposedly located at /node_modules/ionic-angular/themes, assuming that your root dir is the project folder itself
