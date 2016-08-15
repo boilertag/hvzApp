@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 
-import {mapComponent} from '../map/app.gameMap';
+import {Map} from '../map/app.gameMap';
 
 @Component({
 selector:'mainPage',
@@ -14,7 +14,7 @@ export class mainPageComponent {
    statusText: any;
    statusColor: any;
 
-   PSA1='-ace of the playground, you little poopypants.';
+   PSA1='-face of the playground, you little poopypants.';
    PSA2='-If only you could have known what';
    PSA3='-serious punishments your little smartypants';
 
@@ -40,8 +40,8 @@ export class mainPageComponent {
       }
    }
 
-   pushPage(){
-      this.navCtrl.push(mapComponent, {
+   pushMap(){
+      this.navCtrl.push(Map, {
          id: "123",
          name: "Carl"
       });

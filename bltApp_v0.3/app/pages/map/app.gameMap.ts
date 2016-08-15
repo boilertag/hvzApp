@@ -5,7 +5,7 @@ import {NavParams} from 'ionic-angular';
     selector:'game-map',
     templateUrl:'build/pages/map/gameMap.html',
 })
-export class mapComponent {
+export class Map {
    constructor(private navParams: NavParams){
       let id = navParams.get('id');
       let name = navParams.get('name');
