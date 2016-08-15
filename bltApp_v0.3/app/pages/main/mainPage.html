@@ -16,7 +16,7 @@
       </ion-card-header>
       <ion-card-content style="">
         <ion-col>
-          <h1 style="border-top: 1px solid yellow; border-bottom: 1px solid yellow;">HH:MM:SS</h1>
+          <h1 style="border-top: 1px solid yellow; border-bottom: 1px solid yellow;">{{time}}</h1>
         </ion-col>
       </ion-card-content>
       <ion-card-content>
@@ -25,7 +25,7 @@
             <h2>Mission status</h2>
           </ion-col>
           <ion-col>
-            <h2 id="status" light>Active</h2>
+            <h2 style="background: {{statusColor}}" light>{{statusText}}</h2>
           </ion-col>
         </ion-row>
       </ion-card-content>
@@ -38,9 +38,9 @@
       </ion-card-header>
       <ion-card-content>
         <ion-content zooming="false" direction="y" style="height: 10vh">
-          -ace of the playground, you little poopypants.
-          -If only you could have known what
-          -serious punishments your little "smartypants"
+          <h6>{{PSA1}}</h6>
+          <h6>{{PSA2}}</h6>
+          <h6>{{PSA3}}</h6>
         </ion-content>
       </ion-card-content>
     </ion-card>
