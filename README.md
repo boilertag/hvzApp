@@ -2,6 +2,9 @@
 This is the repository for the Purdue Boiler League of Tag Humans vs Zombies mobile app.
 Its intended platforms are Android and iOS.
 
+Link to backend: 
+https://github.com/boilertag/hvzapp_backend
+
 ===========
 =Changelog=
 ===========
