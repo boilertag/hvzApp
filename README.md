@@ -6,6 +6,16 @@ Its intended platforms are Android and iOS.
 =Changelog=
 ===========
 2016.08.09.1528
+NOTE: due to annoying things with my ide, I am switching bltApp_v0.3 from 2 space tabs to 3 space tabs 
+there are 6 projects in this directory
+ionic v0.1:	bltApp_v0.1
+ionic v0.2:	bltApp_v0.2
+wip ionic v0.3:	bltApp_v0.3
+ts v0.1:	HvZApp
+ts v0.2:	HvZApp_v0.2
+demo app:	kitchenSink
+
+2016.08.09.1528
 there are 6 projects in this directory
 ionic v0.1:	bltApp_v0.1
 ionic v0.2:	bltApp_v0.2
@@ -52,7 +62,7 @@ mySide is the current (up-to-date) app that showcases the home template, some re
 +Troubleshooting+
 +++++++++++++++++
 -if 'ionic serve -l' or otherwise isn't working for a freshly created Ionic 2 project (some sort of error about packages missing and needing to run 'npm install'), then run 'npm --production=false install'
--Ionic 1 doesn't work out of the box in Ionic 2. 
+-Ionic 1 doesn't work out of the box in Ionic 2.
 
 -to include .scss files for each component, edit /app/theme/app.core.scss with the respective @import "../pages/(component)/(scss file name)"
 -app.variables.scss contains all of the global sass vars used within the app. this includes anything from default menu item colors to background colors, as well as the standard color palette that can be used with elements

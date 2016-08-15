@@ -6,18 +6,18 @@ import {HomePage} from './pages/home/home';
 import {mainPageComponent} from './pages/main/app.mainPage';
 
 @Component({
-  template: '<ion-nav [root]="rootPage"></ion-nav>'
+   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
 export class MyApp {
-  rootPage: any = mainPageComponent;
+   rootPage: any = mainPageComponent;
 
-  constructor(platform: Platform) {
-    platform.ready().then(() => {
+   constructor(platform: Platform) {
+      platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
-    });
-  }
+      });
+   }
 }
 
 ionicBootstrap(MyApp);

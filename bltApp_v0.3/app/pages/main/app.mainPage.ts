@@ -4,8 +4,8 @@ import {NavController} from 'ionic-angular';
 import {mapComponent} from '../map/app.gameMap';
 
 @Component({
-    selector:'mainPage',
-    templateUrl:'build/pages/main/mainPage.html',
+selector:'mainPage',
+   templateUrl:'build/pages/main/mainPage.html',
 })
 export class mainPageComponent {
    constructor(public navCtrl: NavController) {
