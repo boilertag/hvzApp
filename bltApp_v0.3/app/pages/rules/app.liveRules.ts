@@ -1,34 +1,31 @@
-
-
 import{Component,OnInit,OnDestroy} from '@angular/core';
-import{ActivatedRoute} from '@angular/router';
-import { ROUTER_DIRECTIVES } from '@angular/router';
-import {Data} from './data';
-import{DataService} from './app.dataGet';
+import {NavParams} from 'ionic-angular';
+
+//import {Data} from './data';
+//import{DataService} from './app.dataGet';
 
 @Component({
     selector:'live-rules',
-    templateUrl:'app/liveRules.html',
-    directives: [ROUTER_DIRECTIVES],
+    templateUrl:'build/pages/rules/liveRules.html',
 })
-export class rulesComponent implements OnInit,OnDestroy{
-    info: Data[];
-    dynamicRules="";
-    staticRules="";
-    constructor(
-        private dataService: DataService,
-        private route: ActivatedRoute) {
-    }
-    ngOnInit(){
-        this.getData();
+export class Rules implements OnInit,OnDestroy{
 
-    }
-    ngOnDestroy(){
+   //info: Data[];
+   dynamicRules="";
+   staticRules="";
+   constructor(private navParams: NavParams /*private dataService: DataService*/) {
+   }
 
-    }
-    getData() {
+   ngOnInit(){
+      this.getData();
 
-        this.dataService.getData(1,"id").then(egg => this.dynamicRules = egg);
-        this.dataService.getData(2,"name").then(egg => this.staticRules = egg);
-    }
+   }
+   ngOnDestroy(){
+
+   }
+   getData() {
+/*
+      this.dataService.getData(1,"id").then(egg => this.dynamicRules = egg);
+      this.dataService.getData(2,"name").then(egg => this.staticRules = egg);
+*/ }
 }

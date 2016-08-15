@@ -1,19 +1,20 @@
 import{Component,OnInit,OnDestroy} from '@angular/core';
-import{ActivatedRoute} from '@angular/router';
-import { ROUTER_DIRECTIVES } from '@angular/router';
+import {NavParams} from 'ionic-angular';
 
 @Component({
     selector:'mission',
-    templateUrl:'app/mission.html',
-    directives: [ROUTER_DIRECTIVES],
+    templateUrl:'build/pages/mission/mission.html',
 })
-export class missionComponent implements OnInit,OnDestroy{
+export class Mission implements OnInit,OnDestroy{
     hMission="";
     zMission="";
     hMissionS="";
     zMissionS="";
     mission="buttsMission";
     missionStatus="butt is being a butt";
+
+    constructor(private navParams: NavParams){
+    }
     ngOnInit(){
 
     }

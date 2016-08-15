@@ -2,6 +2,16 @@
   <ion-navbar>
     <ion-title>
       Home
+      <ion-icon name="contact"></ion-icon>
+      <ion-icon name="more"></ion-icon>
+      <ion-icon name="sync"></ion-icon>
+      <ion-icon name="checkbox"></ion-icon>
+      <ion-icon name="timer"></ion-icon>
+      <ion-icon name="warning"></ion-icon>
+      <ion-icon name="alert"></ion-icon>
+      <ion-icon name="information-circle"></ion-icon>
+      <ion-icon name="chatboxes"></ion-icon>
+
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -47,30 +57,30 @@
   </div>
   <div id="block3">
     <ion-row>
-      <button outline danger>
+      <button outline danger (click)="pushLogin()">
         <ion-col>
-          <ion-icon name="map"></ion-icon>
-          <p>Map</p>
+          <ion-icon name="log-in"></ion-icon>
+          <p>Login</p>
         </ion-col>
       </button>
-      <button outline secondary>
+      <button outline secondary (click)="pushMission()">
         <ion-col>
-          <ion-icon name="map"></ion-icon>
-          <p>Map</p>
+          <ion-icon name="pulse"></ion-icon>
+          <p>Mission</p>
         </ion-col>
       </button>
-      <button outline>
+      <button outline (click)="pushRules()">
         <ion-col>
-          <ion-icon name="map"></ion-icon>
-          <p>Map</p>
+          <ion-icon name="megaphone"></ion-icon>
+          <p>Rules</p>
         </ion-col>
       </button>
     </ion-row>
     <ion-row>
-      <button outline>
+      <button outline (click)="pushStats()">
         <ion-col>
-          <ion-icon name="map"></ion-icon>
-          <p>Map</p>
+          <ion-icon name="pie"></ion-icon>
+          <p>Stats</p>
         </ion-col>
       </button>
       <button outline (click)="pushMap()">
@@ -81,8 +91,8 @@
       </button>
       <button outline>
         <ion-col>
-          <ion-icon name="map"></ion-icon>
-          <p>Map</p>
+          <ion-icon name="nuclear"></ion-icon>
+          <p>oops</p>
         </ion-col>
       </button>
     </ion-row>

@@ -1,6 +1,10 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 
+import {Login} from '../login/app.login';
+import {Mission} from '../mission/app.mission';
+import {Rules} from '../rules/app.liveRules';
+import {Stats} from '../stats/app.statistics';
 import {Map} from '../map/app.gameMap';
 
 @Component({
@@ -40,6 +44,20 @@ export class mainPageComponent {
       }
    }
 
+   pushLogin(){
+      this.navCtrl.push(Login, {
+
+      });
+   }
+   pushMission(){
+      this.navCtrl.push(Mission);
+   }
+   pushRules(){
+      this.navCtrl.push(Rules);
+   }
+   pushStats(){
+      this.navCtrl.push(Stats);
+   }
    pushMap(){
       this.navCtrl.push(Map, {
          id: "123",

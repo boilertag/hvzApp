@@ -1,16 +1,21 @@
-<h1>login</h1>
+<ion-header>
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+   <h1>login</h1>
 
-<h2>Username: </h2>
-<input #uSer
-       (keyup.enter)="userName=uSer.value"
-       (blur)="userName=uSer.value">
-<h2>Password: </h2>
-<input #passw
-       (keyup.enter)="passWord=passw.value"
-       (blur)="passWord=passw.value"
-       type="password">
-<a (click)="loginPress()">Enter</a>
-
-<a [routerLink]="['/mainPage']" routerLinkActive="active" class="button-scale button icon ion-pie-graph button-assertive">
-    <br>Back
-</a>
+   <h2>Username: </h2>
+   <!--
+   <input #uSer
+          (keyup.enter)="userName=uSer.value"
+          (blur)="userName=uSer.value">
+   <h2>Password: </h2>
+   <input #passw
+          (keyup.enter)="passWord=passw.value"
+          (blur)="passWord=passw.value"
+          type="password">
+   <a (click)="loginPress()">Enter</a>
+   -->
+</ion-content>
