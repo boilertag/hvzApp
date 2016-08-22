@@ -1,0 +1,52 @@
+.mainPage {
+
+}
+ion-card {
+   //background: $card;
+}
+
+#mission1{
+   margin-top: 5%;
+   max-height: 50vh;
+   overflow: auto;
+   ion-card{
+      ion-card-content{
+         ion-content{
+            height: 20vh;
+            h2{
+               color: aqua;
+            }
+         }
+      }
+   }
+}
+
+#mission2{
+   margin-top: 3%;
+   height: 18vh;
+   ion-card{
+      ion-card-content{
+         ion-content{
+            height: 10vh;
+            h6{
+               width: 100%;
+               overflow: hidden;
+               text-overflow: ellipsis;
+               white-space: nowrap;
+            }
+         }
+      }
+   }
+}
+
+#mission3 {
+   margin-top: 12%;
+   max-height: 20vh;
+   ion-card{
+      ion-card-content{
+         ion-content{
+            height: 10vh;
+         }
+      }
+   }
+}

@@ -9,12 +9,12 @@ ion-col {
    text-align: center;
 }
 
-#block1{
+#main1{
    margin-top: 15%;
    max-height: 30vh;
 }
 
-#block2{
+#main2{
    margin-top: 6%;
    height: 18vh;
    ion-card{
@@ -31,7 +31,7 @@ ion-col {
    }
 }
 
-#block3 {
+#main3 {
    margin-top: 8%;
    ion-row {
       button {
@@ -40,6 +40,7 @@ ion-col {
          ion-col {
             ion-icon {
                //color: white;
+               font-size: 2.5em;
             }
             p {
                //color: white;

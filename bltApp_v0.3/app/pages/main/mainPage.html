@@ -17,7 +17,7 @@
 </ion-header>
 
 <ion-content padding>
-  <div id="block1">
+  <div id="main1">
     <ion-card>
       <ion-card-header>
         <ion-col>
@@ -41,13 +41,13 @@
       </ion-card-content>
     </ion-card>
   </div>
-  <div id="block2">
+  <div id="main2">
     <ion-card>
       <ion-card-header>
         <h2 style="text-align: center;">Announcements</h2>
       </ion-card-header>
       <ion-card-content>
-        <ion-content zooming="false" direction="y" style="height: 10vh">
+        <ion-content zooming="false" style="height: 10vh">
           <h6>{{PSA1}}</h6>
           <h6>{{PSA2}}</h6>
           <h6>{{PSA3}}</h6>
@@ -55,7 +55,7 @@
       </ion-card-content>
     </ion-card>
   </div>
-  <div id="block3">
+  <div id="main3">
     <ion-row>
       <button outline danger (click)="pushLogin()">
         <ion-col>
@@ -96,63 +96,5 @@
         </ion-col>
       </button>
     </ion-row>
-
-    <!--
-    <ion-col width-33>
-      <ion-row>
-        <button outline>
-          <ion-col>
-            <ion-icon name="map"></ion-icon>
-            <p>Map</p>
-          </ion-col>
-        </button>
-      </ion-row>
-      <ion-row>
-        <button outline>
-          <ion-col>
-            <ion-icon name="map"></ion-icon>
-            <p>Map</p>
-          </ion-col>
-        </button>
-      </ion-row>
-    </ion-col>
-    <ion-col width-33>
-      <ion-row>
-        <button outline>
-          <ion-col>
-            <ion-icon name="map"></ion-icon>
-            <p>Map</p>
-          </ion-col>
-        </button>
-      </ion-row>
-      <ion-row>
-        <button outline>
-          <ion-col>
-            <ion-icon name="map"></ion-icon>
-            <p>Map</p>
-          </ion-col>
-        </button>
-      </ion-row>
-    </ion-col>
-    <ion-col width-33>
-      <ion-row>
-        <button outline>
-          <ion-col>
-            <ion-icon name="map"></ion-icon>
-            <p>Map</p>
-          </ion-col>
-        </button>
-      </ion-row>
-      <ion-row>
-        <button outline>
-          <ion-col>
-            <ion-icon name="map"></ion-icon>
-            <p>Map</p>
-          </ion-col>
-        </button>
-      </ion-row>
-    </ion-col>
--->
-
   </div>
 </ion-content>
