@@ -1,13 +1,29 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Rules</ion-title>
-  </ion-navbar>
+   <ion-navbar>
+      <ion-title>Rules</ion-title>
+   </ion-navbar>
 </ion-header>
-<ion-content>
-   <h1>Live Rules</h1>
-
-   <h3>{{dynamicRules}}</h3>
-   <h2>Dynamic Rules</h2>
-
-   <h3>{{staticRules}}</h3>
+<ion-content padding>
+   <div id="rules1">
+      <ion-card>
+         <ion-card-header>
+            <h1>Live Calls</h1>
+         </ion-card-header>
+         <ion-card-content style="">
+            <ion-content zooming="false" direction="y">
+               <h2>Stun Timer</h2>
+               <h3>{{timeStun}} sec</h3>
+               <h2>Safe Zone</h2>
+               <h3>{{distSafe}} ft</h3>
+            </ion-content>
+         </ion-card-content>
+      </ion-card>
+   </div>
+   <div id="rules2">
+      <ion-card>
+         <ion-card-header>
+            <h1>Rulebook</h1><!--probably give a separate page for this; turn this section into a button-->
+         </ion-card-header>
+      </ion-card>
+   </div>
 </ion-content>

@@ -11,8 +11,9 @@ import {NavParams} from 'ionic-angular';
 export class Rules implements OnInit,OnDestroy{
 
    //info: Data[];
-   dynamicRules="";
-   staticRules="";
+   timeStun=2;    //seconds
+   distSafe=15;   //feet
+   
    constructor(private navParams: NavParams /*private dataService: DataService*/) {
    }
 

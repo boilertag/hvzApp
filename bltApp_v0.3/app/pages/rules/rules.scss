@@ -1,0 +1,20 @@
+#rules1{
+   margin-top: 12%;
+   max-height: 50vh;
+   overflow: auto;
+   ion-card{
+      ion-card-content{
+         ion-content{
+            height: 20vh;
+            h2{
+               color: orange;
+            }
+         }
+      }
+   }
+}
+
+#rules2{
+   margin-top: 3%;
+   height: 18vh;
+}
